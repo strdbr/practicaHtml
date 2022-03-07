@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cliente pasteleria</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <img src="img/logo.png">
+    <section>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="#sabores">Sabores</a></li>
+            <li><a href="#decor">Decoracion</a></li>
+            <li><a href="#ordenes">Ordena</a></li>
+        </ul>
+    </section>
+    <section id='sabores'>
+        <h1>Nuestros sabores</h1>
+        <ul>
+            <li>Tres leches - $250</li>
+            <img src="img/tresLeches.jpg">
+            <li>Vainilla - $200</li>
+            <img src="img/vainilla.jpg">
+            <li>Chocolate - $200</li>
+            <img src="img/chocolate.jpg">
+            <li>Mil hojas - $450</li>
+            <img src="img/milHojas.jpg">
+            <li>Zarzamora - $250</li>
+            <img src="img/zarzamora.jpg">
+            <li>Red Velvet - $300</li>
+            <img src="img/redVelvet.jpg">
+        </ul>
+    </section>
+    <section id='decor'>
+        <h1>Nuestras decoraciones</h1>
+        <ul>
+            <li>Decoracion en 3D - $100</li>
+            <li>Decoraciones geometricas - $100</li>
+            <li>Decoraciones florales - $50</li>
+            <li>Decoracion desnuda o semi desnuda - Incluido con el sabor</li>
+            <li>Decoracion drip cakes - $150</li>
+        </ul>
+    </section>
+    <section id='ordenes'>
+        <h1>Ordena aquí</h1>
+        <form>
+            <label>Nombre:</label>
+            <input type='text'><br><br>
+            <label>Telefono:</label>
+            <input type='text'><br><br>
+            <label>Correo electronico:</label>
+            <input type='email'><br><br>
+            <label>Seleccione sabor:</label>
+            <select name='sabor'>
+                <option value='tresLeches'>Tres leches</option>
+                <option value='vainilla'>Vainilla</option>
+                <option value='chocolate'>Chocolate</option>
+                <option value='milHojas'>Mil Hojas</option>
+                <option value='zarzamora'>Zarzamora</option>
+                <option value='redVelvet'>Red Velvet</option>
+            </select><br><br>
+            <label>Seleccione decoracion:</label>
+            <select name='sabor'>
+                <option value='3d'>3D</option>
+                <option value='geometricas'>Geometricas</option>
+                <option value='florales'>Florales</option>
+                <option value='desnuda'>Desnuda o semi desnuda</option>
+                <option value='dripCake'>Drip Cake</option>
+            </select><br><br>
+            <label>Si requiere una combinacion especifica, comentela aquí</label>
+            <textarea rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id='footer'>
+        <p>Direccion</p>
+        <p>Av. Ricardo Lopez 64, Del. Miguel Higalgo, CDMX, 54267</p>
+        <p>Horarios de atencion: lunes a jueves, 10am a 6pm</p>
+    </section>
+</body>
+</html>
